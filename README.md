@@ -2,7 +2,7 @@
 
 A demo for a basic webview implementation.
 
-### Step 1 - Configuration
+## Step 1 - Configuration
 
 Install the package:
 
@@ -19,6 +19,10 @@ Modify your `android/app/build.gradle` file as follows:
 
 minSdkVersion 20
 targetSdkVersion 30
+
+## Step 2 - Basic webview
+
+
 
 
 
