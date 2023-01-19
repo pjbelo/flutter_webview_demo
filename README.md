@@ -23,6 +23,8 @@ targetSdkVersion 30
 ## Step 2 - Basic webview
 
 
+## Step 3 - Activate javascript
+
 
 
 

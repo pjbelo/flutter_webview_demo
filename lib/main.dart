@@ -22,7 +22,9 @@ class _WebViewAppState extends State<WebViewApp> {
 
   @override
   void initState() {
-    controller = WebViewController()..loadRequest(Uri.parse(url));
+    controller = WebViewController()
+      ..setJavaScriptMode(JavaScriptMode.unrestricted)
+      ..loadRequest(Uri.parse(url));
     super.initState();
   }
 
