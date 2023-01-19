@@ -1,16 +1,26 @@
 # flutter_webview_demo
 
-A new Flutter project.
+A demo for a basic webview implementation.
 
-## Getting Started
+### Step 1 - Configuration
 
-This project is a starting point for a Flutter application.
+Install the package:
 
-A few resources to get you started if this is your first Flutter project:
+`flutter pub add webview_flutter`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+In your code import the package using:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`import 'package:webview_flutter/webview_flutter.dart';`
+
+
+To use the webview_flutter plugin on Android you need to set the minSDK to 19 or 20, depending which Android Platform View you want to use.
+
+Modify your `android/app/build.gradle` file as follows:
+
+minSdkVersion 20
+targetSdkVersion 30
+
+
+
+
+
