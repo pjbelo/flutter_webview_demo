@@ -24,6 +24,16 @@ class _WebViewAppState extends State<WebViewApp> {
   void initState() {
     controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
+      ..setNavigationDelegate(
+        NavigationDelegate(
+          onNavigationRequest: (navigation) {
+            if (navigation.url != url) {
+              return NavigationDecision.prevent;
+            }
+            return NavigationDecision.navigate;
+          },
+        ),
+      )
       ..loadRequest(Uri.parse(url));
     super.initState();
   }

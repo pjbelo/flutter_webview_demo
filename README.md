@@ -26,6 +26,13 @@ targetSdkVersion 30
 ## Step 3 - Activate javascript
 
 
+## Step 4 - Restrict navigation to url
+
+or to domain:
+`if (!navigation.url.startsWith('https://flutter.dev')) `
+
+
+
 
 
 
