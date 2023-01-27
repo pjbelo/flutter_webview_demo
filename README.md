@@ -1,27 +1,10 @@
-# flutter_webview_demo
+# Flutter: WebView - a simple demo
 
-A demo for a basic webview implementation.
+A step-by-step demo of a basic implementation of webview_flutter, a Flutter plugin that provides a WebView widget on Android and iOS.
 
-## Step 1 - Configuration
+Check the tutorial here: 
 
-Install the package:
-
-`flutter pub add webview_flutter`
-
-In your code import the package using:
-
-`import 'package:webview_flutter/webview_flutter.dart';`
-
-
-To use the webview_flutter plugin on Android you need to set the minSDK to 19 or 20, depending which Android Platform View you want to use.
-
-Modify your `android/app/build.gradle` file as follows:
-
-minSdkVersion 20
-targetSdkVersion 30
-
-## Step 2 - Basic webview
-
+https://www.flutter-demo.net/2023/01/flutter-webview-simple-demo.html
 
 
 
